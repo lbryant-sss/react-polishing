@@ -1,23 +1,9 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Homepage from './pages/Homepage';
+import About from './pages/About';
 
-function Homepage() {
-  return (
-    <>
-      <h1>This is my home page
-        <a href="/about">About page</a>
-      </h1>
-    </>
-  );
-}
 
-function About() {
-  return (
-    <>
-      <h1>This is my about page</h1>
-    </>
-  );
-}
 
 
 
