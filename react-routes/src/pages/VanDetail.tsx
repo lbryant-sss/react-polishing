@@ -16,15 +16,15 @@ const vanDetail: React.FC = () =>{
             <section className="hero-section">
             <nav>
           <div className="home_link">
-            <Link to="/">#RoadTripLife</Link>
+            <Link to="/react-polishing/">#RoadTripLife</Link>
           </div>
-          <div className="about_link">
+          <div className="/react-polishing/about_link">
             <ul>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/react-polishing/about">About</Link>
               </li>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="//react-polishing/">Home</Link>
               </li>
             </ul>
           </div>
