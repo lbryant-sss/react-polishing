@@ -29,7 +29,7 @@ function Homepage() {
         <ul className='van-list'>
           {Vans.map((van: Van) => (
             <li key={van.id}>
-              <Link to={`/vans/${van.id}`}>
+              <Link to={`/react-polishing/vans/${van.id}`}>
                 <div>
                   <img src={van.image} alt={van.title} />
                   <h2>{van.title}</h2>
