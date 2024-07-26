@@ -24,7 +24,7 @@ const vanDetail: React.FC = () =>{
                 <Link to="/react-polishing/about">About</Link>
               </li>
               <li>
-                <Link to="//react-polishing/">Home</Link>
+                <Link to="/react-polishing/">Home</Link>
               </li>
             </ul>
           </div>
