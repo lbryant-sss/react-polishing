@@ -18,7 +18,7 @@ const vanDetail: React.FC = () =>{
           <div className="home_link">
             <Link to="/react-polishing/">#RoadTripLife</Link>
           </div>
-          <div className="/react-polishing/about_link">
+          <div className="about_link">
             <ul>
               <li>
                 <Link to="/react-polishing/about">About</Link>
