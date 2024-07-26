@@ -57,3 +57,29 @@ h1{
     padding-top: 80px;
     text-align: center;
 }
+
+.vans{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.hero-section ul{
+    display: flex;
+}
+.hero-section .van-list li{
+    max-height: 300px;
+    width: 250px;
+    margin: 10px;
+    background-color: rgb(177, 157, 132);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(211, 187, 157);
+}
+.hero-section ul li img{
+    min-height: 100%;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.hero-section ul li p, h2{
+    padding-left: 10px;
+    color: #222;
+}

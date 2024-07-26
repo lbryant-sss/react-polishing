@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Homepage from './pages/Homepage';
 import About from './pages/About';
+import VanDetails from './pages/VanDetail';
 
 
 
@@ -13,8 +14,9 @@ function App() {
    <>
    <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Homepage /> }/>
-      <Route path='/about' element={<About />}/>
+      <Route path='/react-polishing/' element={<Homepage /> }/>
+      <Route path='react-polishing/about' element={<About />}/>
+      <Route path='react-polishing/vans/:id' element={<VanDetails />} />
     </Routes>
    </BrowserRouter>
    </>
